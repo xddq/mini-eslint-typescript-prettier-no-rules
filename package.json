@@ -1,0 +1,21 @@
+{
+  "name": "eslint-typescript-prettier-no-rules-issue",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tasks.mjs build",
+    "lint": "eslint .",
+    "format": "prettier ."
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "2.0.0",
+    "@types/node": "18.16.8",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
