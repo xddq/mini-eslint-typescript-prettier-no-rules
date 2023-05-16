@@ -2,11 +2,14 @@
 module.exports = {
   extends: [
     // NOTE: Here I simply want to disable all rules and enable them one by one
-    // later. In case you want all "recommended" rules, simply uncomment here
-    // and you are ready to go.
+    // later. In case you want all "recommended" rules, simply uncomment the
+    // next lines here and you are ready to go.
     // "eslint:recommended",
     // "plugin:@typescript-eslint/recommended",
     // "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    // Keep this pretter extends. It disables all formatting based rules of eslint. Enables
+    // eslint to just work as linter and prettier work as formatter.
+    "prettier",
   ],
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
